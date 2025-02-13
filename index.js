@@ -19,7 +19,7 @@ await connectDB()
 // cors
 app.use(
     cors({
-      origin: "http://localhost:5173",
+      origin: ["http://localhost:5173","https://chattna-drum.surge.sh/"],
       credentials: true,
     })
   );
